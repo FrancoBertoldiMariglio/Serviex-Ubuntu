@@ -1,0 +1,30 @@
+franco@franco-ThinkPad-T14-Gen-2i:~$ find tesseract
+find: ‘tesseract’: No such file or directory
+franco@franco-ThinkPad-T14-Gen-2i:~$ find pytesseract
+find: ‘pytesseract’: No such file or directory
+franco@franco-ThinkPad-T14-Gen-2i:~$ find Pytesseract
+find: ‘Pytesseract’: No such file or directory
+franco@franco-ThinkPad-T14-Gen-2i:~$ pip install tesseract
+Collecting tesseract
+  Downloading tesseract-0.1.3.tar.gz (45.6 MB)
+     |████████████████████████████████| 45.6 MB 13.3 MB/s 
+Building wheels for collected packages: tesseract
+  Building wheel for tesseract (setup.py) ... done
+  Created wheel for tesseract: filename=tesseract-0.1.3-py3-none-any.whl size=45562569 sha256=40332bc45857a3b1ae1c7cd9035c344156a23ec59e4300a4ce9a255993c276b6
+  Stored in directory: /home/franco/.cache/pip/wheels/7f/a1/69/fabe07004553a36d818e4657fed410daf525fe1ae161f469d3
+Successfully built tesseract
+Installing collected packages: tesseract
+Successfully installed tesseract-0.1.3
+franco@franco-ThinkPad-T14-Gen-2i:~$ find tesseract
+find: ‘tesseract’: No such file or directory
+franco@franco-ThinkPad-T14-Gen-2i:~$ ^C
+franco@franco-ThinkPad-T14-Gen-2i:~$ find tesseract
+find: ‘tesseract’: No such file or directory
+franco@franco-ThinkPad-T14-Gen-2i:~$ pip install pytesseract
+Requirement already satisfied: pytesseract in ./.local/lib/python3.8/site-packages (0.3.10)
+Requirement already satisfied: Pillow>=8.0.0 in ./.local/lib/python3.8/site-packages (from pytesseract) (9.4.0)
+Requirement already satisfied: packaging>=21.3 in ./.local/lib/python3.8/site-packages (from pytesseract) (23.0)
+franco@franco-ThinkPad-T14-Gen-2i:~$ 
+
+
+
